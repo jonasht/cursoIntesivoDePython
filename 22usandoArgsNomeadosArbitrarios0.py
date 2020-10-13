@@ -2,6 +2,7 @@
 print('\n')
 def construir_perfil(first, last, **user_info):
     profile = {}
+    
     profile['first_name'] = first.title()
     profile['last_name'] = last.title()
     
