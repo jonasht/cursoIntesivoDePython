@@ -16,7 +16,7 @@ def construir_perfil(first, last, **user_info):
 
 def mostrar(infos):
     l()
-    print('=-=-=-= Informações: =-=-=')
+    print('=-=-=-= Informações: =-=-=-=-=')
     for k, v in infos.items():
         print(f'\t{k:>11}: {v:<5}')
     l()
@@ -29,5 +29,10 @@ mostrar(user_profile)
 user_profile = construir_perfil('jonas', 'teixeira', 
                                 localização = 'mogi guaçu',
                                 campo = 'programador')
+
+user_profile = construir_perfil('felipe', 'adomalae',
+                                tipo_De_Sangue = 'O-',
+                                localização = 'mogi guaçu',
+                                compo = 'barista')
 mostrar(user_profile)
 
