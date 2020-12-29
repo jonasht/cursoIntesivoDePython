@@ -1,4 +1,4 @@
-# modificando o valor de um atributo diretamente
+# modificando o valor de um atributo com um mehtado
 
 class Car(): 
     
@@ -16,6 +16,9 @@ class Car():
     
     def read_odometer(self):
         print(f'esta carro tem {self.odometer_reading} milhas percorridas')
+    
+    def update_odometer(self, mileage):
+        self.odometer_reading = mileage
         
     
 
@@ -24,8 +27,15 @@ print('carro:')
 my_new_car = Car('audi', 'a4', 2016)
 print(my_new_car.get_descriptive_name())
 
-print(my_new_car.read_odometer())
+
+my_new_car.read_odometer()
+print()
 print('valor modificando')
 my_new_car.odometer_reading = 20
-print(my_new_car.read_odometer())
+my_new_car.read_odometer()
 print()
+
+print('update do hodometro do carro:')
+my_new_car.update_odometer(42)
+
+my_new_car.read_odometer()
