@@ -1,5 +1,5 @@
 # modificando o valor de um atributo com um mehtado
-
+def l(): print('=-'*30+'=')
 class Car(): 
     
     def __init__(self, make, model, year):
@@ -22,7 +22,12 @@ class Car():
         if mileage >= self.odometer_reading:
             self.odometer_reading = mileage
         else:
-            print(f'voce não pode diminuir o hodometro com {mileage} somente maior que {self.odometer_reading}')
+            print(f'voce não pode diminuir o odometro com {mileage}, somente maior que {self.odometer_reading}')
+
+    def increment_odometer(self, miles): # somar quantidade do odometro
+        self.odometer_reading += miles
+        
+
 
     
 
@@ -47,3 +52,21 @@ print()
 print('update do hodometro do carro com um menor valor:')
 my_new_car.update_odometer(10)
 my_new_car.read_odometer()
+print()
+
+l()
+print('carro:')
+meu_carro_usado = Car('sabaru', 'outback', 2013)
+print(meu_carro_usado.get_descriptive_name())
+l()
+
+print('update odometro: ')
+meu_carro_usado.update_odometer(50300)
+meu_carro_usado.read_odometer()
+
+l()
+print('incrementando odometro: ')
+meu_carro_usado.increment_odometer(100)
+meu_carro_usado.read_odometer()
+
+print()
