@@ -24,6 +24,8 @@ u1 = User('felipe', 'arcades', 'feliades@outlook.com', 'felip123', '123')
 u1.describe_user()
 u1.greet()
 
+    
+
 
 
 
