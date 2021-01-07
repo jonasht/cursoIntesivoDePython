@@ -16,7 +16,10 @@ admin.privilages.privilages = [
                     ]
 
 #=-=-=-=-mostrando =-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+print('-'*30)
 
 admin.describe_user()
+print('-'*30)
 
 admin.privilages.show_privilages()
+print('-'*30)
