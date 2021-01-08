@@ -1,7 +1,2 @@
-mensagem = 'eu estou aprendendo a usar python'
-print()
-print(mensagem)
-
-mensagem = 'eu estou muito feliz'
-
+mensagem = 'esta eh uma mensagem'
 print(mensagem)
