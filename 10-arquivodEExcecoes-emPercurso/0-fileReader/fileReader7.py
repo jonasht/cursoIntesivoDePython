@@ -12,6 +12,6 @@ for linha in linhas:
     string_de_pi += linha.strip()
     
 print()
-print(f'{string_de_pi[:1000]}...') # [:100] para não abrir tudo porque trava o pc 
+print(f'{string_de_pi[:1000]}...') # [:***] eh para n abrir tudo porque trava o pc 
 print()
     
