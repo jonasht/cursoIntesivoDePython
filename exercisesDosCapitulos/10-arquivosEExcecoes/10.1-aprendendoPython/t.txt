@@ -1,0 +1,9 @@
+eu estou aprendendo muita coisa em python
+com python podemos fazer muitas coisas
+em python podemos criar varios aplicativos magnificos
+eu estou aprendendo arquivos em python
+5asfas
+6-for
+7-while
+8-if
+9-def
