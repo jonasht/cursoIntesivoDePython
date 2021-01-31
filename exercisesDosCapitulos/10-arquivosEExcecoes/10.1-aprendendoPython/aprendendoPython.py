@@ -1,3 +1,6 @@
+
+# para poder achar o arquivo no ubuntu deve-se escrever no terminal
+# code "diretorio" do arquivo para poder funcionar
 arquivoDeTexto = 't.txt'
 
 def l(): print('=-'*40+'=')

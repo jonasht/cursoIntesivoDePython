@@ -1,0 +1,3 @@
+em Python pode-se armazenar tanta informação quanto queira
+em Python podes conectar pedaços de informações
+em Python podes modular situações do mundo real 
