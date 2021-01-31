@@ -1,0 +1,12 @@
+nome dos convidados:
+nome: jon
+nome: felipe
+nome: caio
+nome: naoseius
+nome: algumus caio
+nome: mateus
+nome: sonia
+nome: roberto
+nome: jorge
+nome: dandanus
+nome: spartacus
