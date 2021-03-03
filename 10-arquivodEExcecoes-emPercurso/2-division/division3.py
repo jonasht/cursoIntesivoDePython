@@ -23,4 +23,4 @@ while True:
 
 
     
-# vai dar erro se digitar 5 e 0 
+# se digitar 5 e 0 não  mais erro 

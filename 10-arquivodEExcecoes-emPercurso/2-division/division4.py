@@ -22,7 +22,7 @@ while True:
         print('you cannot divide by zero')
     else:
         print(resposta)
-
+        print('fim de programa')
 
     
 # vai dar erro se digitar 5 e 0 
