@@ -1,4 +1,4 @@
-# trabalhando com varios arquivos
+# falhando silenciosamente
 
 print()
 
@@ -7,8 +7,9 @@ def contarPalavras(nomeDoArquivo):
         with open(nomeDoArquivo) as f_obj:
             conteudo = f_obj.read()
     except FileNotFoundError:
-        print(f'sorry, the file {nomeDoArquivo} does not exist')
-        print(f'desculpe, o arquivo {nomeDoArquivo} não existe')
+        # com pass, o programa nao mostrarah que falhou 
+        pass
+    
     else:
         palavras = conteudo.split()
         num_palavras = len(palavras)
