@@ -14,5 +14,3 @@ while True:
 
 print('obrigado por participar da pesquisa!')
 minha_avaliacao.mostrar_resultados()
-
-        
