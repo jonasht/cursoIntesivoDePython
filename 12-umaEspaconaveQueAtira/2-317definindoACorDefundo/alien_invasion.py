@@ -9,8 +9,9 @@ def run_game():
     screen = pygame.display.set_mode((1200, 800))
     pygame.display.set_caption('alien invasion')
 
-    # definir a cor bg do jogo
+    # definir a cor bg do jogo - em formato RGB
     bg_color = (230, 230, 230)
+
     # para iniciar o jogo precisa do laço while
     while True:
         
@@ -18,7 +19,7 @@ def run_game():
         for event in pygame.event.get():
             if event.type== pygame.QUIT:
                 sys.exit()
-        
+        screen.fill(bg_color)
         # deixar a tela mais recente visivel 
         pygame.display.flip()
 
