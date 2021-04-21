@@ -7,6 +7,12 @@ def check_events(ship):
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             sys.exit()
+
+        elif event.type==pygame.KEYDOWN:
+            if event.key == pygame.K_RIGHT:
+                # mova nave para a direita
+                ship.rect.centerx += 1
+                
     
 def update_screen(ai_settings, screen, ship):
     """atualiza as imagens na tela para nova tela"""        
