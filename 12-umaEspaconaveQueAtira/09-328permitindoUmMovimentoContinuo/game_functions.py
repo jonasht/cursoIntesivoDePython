@@ -1,5 +1,5 @@
 import sys
-
+from ship import Ship
 import pygame
 
 
@@ -11,8 +11,11 @@ def check_events(ship):
 
         elif event.type == pygame.KEYDOWN:
             if event.key == pygame.K_RIGHT:
-                # mova nave para a direita
-                ship.rect.centerx += 1
+                ship.moving_right = True
+
+        elif event.type == pygame.KEYUP:
+            if event.key == pygame.K_RIGHT:
+                ship.moviment_right = False
 
 
 def update_screen(ai_settings, screen, ship):
