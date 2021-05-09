@@ -15,4 +15,5 @@ pyplot.ylabel('quadro de valor', fontsize=14)
 
 pyplot.tick_params(axis='both', which='major', labelsize=14)
 
+pyplot.savefig('cubos.png', bbox_inches='tight')
 pyplot.show()
